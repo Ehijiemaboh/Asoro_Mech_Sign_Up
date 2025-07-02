@@ -1,0 +1,464 @@
+.ContainerA {
+    height: 100vh;
+    display: flex;
+    padding: 0%;
+    flex-direction: row;
+    align-content: center;
+    background-color: rgb(239, 241, 243);
+}
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 80vh;
+    background: white;
+    position: absolute;
+    top: 13%;
+    right:50%;
+    
+}
+.ContainerB {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    position: absolute;
+    top: 13%;
+    left:50%;
+    height: 80vh;
+    background-color:rgb(68, 68, 219);
+}   
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .2%;
+    padding: 1%;
+    width: auto;
+    position: absolute;
+    top: 8vh;
+    right:23%;
+
+}
+.headerimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+    margin: 1%;
+    padding: 2%;
+    height: 100%;
+    width: 100%;
+
+}
+
+.text{
+    text-align: center;
+    font-size: 130%;
+}
+
+.input > b {
+    margin: .2%;
+}
+.ContainerB .text>h6 {
+    display: flex;
+    text-align: center;
+    font-size: 120%;
+    font-weight: 400;
+    padding: 0px;
+    margin:0 0 0 0;
+    position: absolute;
+    top: 30%;
+    color: white;
+    
+
+}
+h4{
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+.text > h2 {
+   padding: 0px;
+    margin: 0px;
+    font-size: 120%;
+}
+.text > h6 {
+   padding: 0px;
+    margin: 0px;
+    font-size: 67%;
+}
+
+.ContainerB #radientA {
+    position: absolute;
+    top: 80%;
+    right: 70%;
+    height: 20%;
+    width: 20%;
+    background-color: inherit;
+    border: transparent;
+    background-image: radial-gradient(
+        rgb(90, 73, 240) .0003%, rgb(68, 68, 219) 70%
+    );
+}
+.ContainerB #radientB {
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    height: 30%;
+    width: 30%;
+    border: transparent;
+    background-image: radial-gradient(
+        rgb(90, 73, 240) .0003%, rgb(68, 68, 219) 70%
+    );
+}
+ .ContainerB #radientC {
+    position: absolute;
+    top: 30%;
+    height: 40%;
+    width: 40%;
+    border: transparent;
+    background-image: radial-gradient(
+         rgb(115, 101, 238) .0003%, rgb(68, 68, 219) 70%
+    );
+}
+.dots{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 70%;
+    padding: 0;
+    margin: 0;
+    
+}
+.dot_cycle{
+    width: 7%;
+    height: 27%;
+    margin-top: 4%;
+    margin-left: 30%;
+    float: right;
+    border-radius: 50%;
+    background-color: white;
+}
+.second_cycle{
+    width: 7%;
+    height: 27%;
+    margin-top: 4%;
+    float: left;
+    border-radius: 50%;
+    background-color:white;
+}
+.dot_cylinder{
+    width: 20%;
+    height: 30%;
+    margin: 4%;
+    border-radius: 43px;
+    background-color: white;
+
+}
+.Pre-dots {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 30%;
+}
+.underline{
+    width: 1px;
+    height: 6px;
+    background:red;
+    border-radius: 9px;
+}
+
+.inputs{ 
+    margin-top: .2%;
+    display: flex;
+    flex-direction: column;
+    gap:5%;
+    height: 40%;
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    align-items: center;
+}
+
+.input{
+    margin: 0px 3%;
+}
+
+img{
+    height: 10%;
+    width: 70%;
+}
+
+.headerimg>img{
+    display: flex;
+    flex-direction: column;
+    height: 4%;
+    width: 13%;
+    position: absolute;
+    right: 43%;
+}
+.ContainerB> img{
+    height:68%;
+    width: 65%;
+    position: absolute;
+    top:15%;
+    right: 17%;
+    
+}
+
+#or {
+    margin-top:2.5vh;
+    font-size:fontD;
+}
+
+.submit-container > p{
+    font-size: 70%;
+}
+
+
+.submit-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:7%;
+    width: 100%;
+    
+}
+
+.submit, p {
+     padding: 0% 0;
+     margin: 0%;
+    
+}
+
+.input {
+    height:inputHeight;
+    width: 60%;
+    margin: .2%;
+    border-radius: .4em;
+    gap: 10%;
+}
+.submit > #continue {
+    height: 7vh;
+    width: 60%;
+    font-size: .73em;
+    background-color:white;
+    margin-top: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+#signin {
+    height: inputHeight;
+    width: 60%;
+    background-color: blue;
+    color: white;
+    font-size: .73em;
+}
+
+#create{
+    display: flex;
+    margin-bottom:10%;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    font-size: .8em;
+    top:55vh;
+}
+.Container .inputs{ 
+    margin-top: .2%;
+    display: flex;
+    flex-direction: column;
+    gap: 6%;
+    align-items: center;
+}
+.ContainerB .dots .text h6{
+    font-size:0%;
+    margin: 0%;
+    top: 0%;
+    
+}
+
+input{
+    margin:  .2%;
+    padding: 1% 1% 1% 7%;
+    height: 6vh;
+    width: 90%;
+    gap: .2%;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#Remember{
+    margin: 27px 0px 7% 0px;
+    width: 9%;
+    height:7%; 
+    border-radius: none;
+    border: 2px, solid, black;
+    position: absolute;
+    left: 16%;
+    font-size: fontA;
+}
+
+.a {
+    height: auto;
+    margin: 1% 2% 0% 44%;
+    padding-top: 2%;
+    clear: none;
+    overflow: none;
+    font-size: 80%;
+    position: absolute;
+    left: -10%;  
+}
+.label {
+    margin: 0px 20% 0px 1%;
+    padding-right: 2%;
+    padding-top: 3%;
+    float: left;
+    font-size: 90%; 
+    position: absolute;
+    left: 21%;
+    font-size: 90%;     
+}
+
+.radio{
+    margin: .3% 3% 12% 3%;
+    width: 80%;
+    height: 20%;
+    padding: auto;
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+@media only screen and (max-width: 1000px) {
+.headerimg{
+    height: 0;
+    width: 0;
+}
+
+.submit > #continue {
+    height: 7vh;
+    width: 60%;
+    font-size: .73em;
+    background-color:white;
+    margin-top: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+#signin {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 7vh;
+    width: 60%;
+    background-color: blue;
+    color: white;
+    font-size: .73em;
+    position: absolute;
+    top:55vh;
+    right: 20%;
+}
+
+#create{
+    display: flex;
+    margin-bottom:10%;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    font-size: 4vh;
+    top:70vh;
+}
+.Container .inputs{ 
+    margin-top: .2%;
+    display: flex;
+    flex-direction: column;
+    gap: 6%;
+    align-items: center;
+}
+
+.ContainerB .dots .text h6{
+    font-size:0%;
+    margin: 0%;
+    top: 0%;
+    
+}
+
+
+input{
+    margin:  .2%;
+    padding: 1% 1% 1% 7%;
+    height: 6vh;
+    width: 90%;
+    gap: .2%;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+#Remember{
+    margin: 27px 10% 7% 0px;
+    width: 9%;
+    height:7%; 
+    border-radius: none;
+    border: 2px, solid, black;
+    position: absolute;
+    left: 16%;
+    font-size: 90%;
+}
+
+.a {
+    height: auto;
+    margin: 1% 2% 0% 74%;
+    padding-top: 2%;
+    clear: none;
+    overflow: none;
+    font-size: 80%;
+    position: absolute;
+    left: -10%;  
+}
+.label {
+    margin: 0px 20% 0px 1%;
+    padding-right: 2%;
+    padding-top: 3%;
+    float: left;
+    font-size: 90%; 
+    position: absolute;
+    left: 21%;
+    font-size: 90%;     
+}
+
+.radio{
+    margin: .3% 3% 12% 3%;
+    width: 80%;
+    height: 20%;
+    padding: auto;
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ContainerB {
+    width: 0vw;
+    height: 0vh;
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    background: white;
+    position: absolute;
+    right: 10%;
+    
+}
+.ContainerA {
+    height: 100vh;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    align-content: center;
+    background-color: rgb(239, 241, 243);
+}
+
+}

@@ -1,0 +1,450 @@
+$inputHeight:5.5vh;
+$inputWidth:90%;
+$fontA:.8em;
+$fontB: 80%;
+$fontC:.73em;
+$fontD:70%;
+
+.ContainerA {
+    height: 100vh;
+    display: flex;
+    padding: 5%;
+    flex-direction: row;
+    align-content: center;
+    background-color: rgb(239, 241, 243);
+}
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 85vh;
+    background: white;
+    position: absolute;
+    top: 10%;
+    right:50%;}
+.ContainerB {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left:50%;
+    height: 85vh;
+    background-color:rgb(122, 122, 238);
+}   
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .2%;
+    padding: 1%;
+    width: auto;
+    position: absolute;
+    top: 11vh;
+
+}
+.headerimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+    margin: 1%;
+    padding: 2%;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 2vh;
+
+}
+
+.text{
+    text-align: center;
+    font-size: 130%;
+}
+
+.input > b {
+    margin: .2%;
+}
+.ContainerB .text>h6 {
+    display: flex;
+    text-align: center;
+    font-size: 120%;
+    font-weight: 400;
+    padding: 0px;
+    margin:0 0 0 0;
+    position: absolute;
+    top: 30%;
+    color: white;
+    
+
+}
+h4{
+    padding: 0;
+    margin: 0;
+    font-size: .8em;
+    font-weight: bold;
+}
+.text > h2 {
+   padding: 0px;
+    margin: 0px;
+    font-size: 120%;
+}
+.text > h6 {
+   padding: 0px;
+    margin: 0px;
+    font-size: 67%;
+}
+
+.ContainerB #radientA {
+    position: absolute;
+    top: 80%;
+    right: 70%;
+    height: 20%;
+    width: 20%;
+    background-color: inherit;
+    border: transparent;
+    background-image: radial-gradient(
+        rgb(147, 138, 241) .0003%, rgb(122, 122, 238) 70%
+    );
+}
+.ContainerB #radientB {
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    height: 30%;
+    width: 30%;
+    border: transparent;
+    background-image: radial-gradient(
+        rgb(141, 130, 243) .0003%, rgb(122, 122, 238) 70%
+    );
+}
+ .ContainerB #radientC {
+    position: absolute;
+    top: 26%;
+    height: 40%;
+    width: 40%;
+    border: transparent;
+    background-image: radial-gradient(
+          rgb(161, 152, 247) .0003%, rgb(122, 122, 238) 70%
+    );
+}
+.dots{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 70%;
+    padding: 0;
+    margin: 0;
+    
+}
+.dot_cycle{
+    width: 7%;
+    height: 27%;
+    margin-top: 4%;
+    margin-left: 30%;
+    float: right;
+    border-radius: 50%;
+    background-color: white;
+}
+.second_cycle{
+    width: 7%;
+    height: 27%;
+    margin-top: 4%;
+    float: left;
+    border-radius: 50%;
+    background-color:white;
+}
+.dot_cylinder{
+    width: 20%;
+    height: 30%;
+    margin: 4%;
+    border-radius: 43px;
+    background-color: white;
+
+}
+.Pre-dots {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 30%;
+}
+.underline{
+    width: 1px;
+    height: 6px;
+    background:red;
+    border-radius: 9px;
+}
+
+.inputs{ 
+    margin-top: .2%;
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+    height: 15vh;
+    position: absolute;
+    top: 20%;
+    width: 110%;
+    align-items: center;
+}
+
+.inputs #inputPassword{
+    position: relative;
+    top:4vh;
+}
+.inputs #inputEmail{
+    position: relative;
+    top:3.5vh;
+}
+.input {
+    height:100%;
+    width: 60%;
+    margin: .01vh;
+    border-radius: .4em;
+    gap: 10vh;
+}
+img{
+    height: 10vh;
+    width: 70%;
+}
+
+.headerimg>img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 4vh;
+    width: 21%;
+    position: absolute;
+}
+.ContainerB> img{
+    height:68%;
+    width: 65%;
+    position: absolute;
+    top:4vh;
+    right: 17%;
+    
+}
+
+#or {
+    margin-top:2.5vh;
+    font-size:fontD;
+    position: relative;
+    top:6vh;
+}
+
+.submit-container > p{
+    font-size: 70%;
+}
+
+
+.submit-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:7%;
+    width: 100%;
+    
+}
+
+.submit, p {
+     padding: 0% 0;
+     margin: 0%;
+    
+}
+
+.submit > #continue {
+    height: $inputHeight;
+    width: 60%;
+    font-size: .73em;
+    background-color:white;
+    margin-top: 2%;
+    padding-bottom: .1vh;
+    position: relative;
+    top:6vh;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.submit button img{
+    width: 1.2em;
+    height: 1.2em;
+    position: relative;
+    top:.5vh;
+}
+#signin {
+    height: $inputHeight;
+    width: 60%;
+    background-color: rgb(7, 7, 146);
+    color: white;
+    position: relative;
+    border-radius: .4em;
+    top:6vh;
+    font-size: .73em;
+}
+
+#create{
+    display: flex;
+    margin-bottom:10%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .4em;
+    position: relative;
+    font-size: .7em;
+    top:8.5vh;
+}
+.Container .inputs{ 
+    margin-top: .2%;
+    display: flex;
+    flex-direction: column;
+    gap: 6%;
+    align-items: center;
+}
+.ContainerB .dots .text h6{
+    font-size:.81em;
+    margin: 0%;
+    top:-4vh;
+    
+}
+
+input{
+    margin:  .01vh;
+    padding: 0.1vh 1% .1vh 5%;
+    height:$inputHeight;
+    width: 90%;
+    gap: .01vh;
+    border-radius: .4em;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.a {
+    height: auto;
+    margin: 2%  1% 0% 54%;
+    clear: none;
+    overflow: none;
+    font-size:.7em;
+    position: absolute;
+    right: 14%;  
+}
+.label {
+    margin: 0px 0 0px 0%;
+    padding: 0%;
+    padding-top:.001vh;
+    float: left;
+    width: 25%;
+    font-size:.7em; 
+    position: absolute;
+    left: 9.7%;
+}
+
+.radio{
+    margin:.2vh 3% 4vh 3%;
+    width: 80%;
+    height: 20%;
+    padding: auto;
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top:4vh;
+} 
+.radio .radiob {
+  display: none;
+}
+
+
+label {
+  display: inline-block;
+  padding: 5px 0px;
+  cursor: pointer;
+}
+label span {
+  position: relative;
+  line-height: 22px;
+  margin-left: 0;
+}
+
+label span:before,
+label span:after {
+  content: '';
+}
+
+label span:before {
+  border: 1px solid #222021;
+  width: 10%;
+  height: 2vh;
+  margin-right:7px;
+  margin-left: 0;
+  display: inline-block;
+  vertical-align: top;
+  padding:0;
+  position: relative;
+  top:.7vh;
+  left:-0.71%;
+  background-color: rgb(226, 228, 230);
+}
+
+label span:after {
+  background: #222021;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top:0.01vh;
+  left:5px;
+  transition: 300ms;
+  opacity: 0;
+}
+
+label input:checked+span:after {
+  opacity: 1;
+}
+
+body {
+  background: #fbfbfb;
+  font-family: Arial;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+}
+@media only screen and (max-width: 1000px) {
+.ContainerB img {
+    height: 0;
+    width: 0;
+}
+
+.ContainerB .dots .text h6{
+    font-size:0%;
+    margin: 0%;
+    top: 0%;
+    
+}
+
+.ContainerB {
+    width: 0vw;
+    height: 0vh;
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 85vh;;
+    background: white;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
+.ContainerA {
+    height: 80vh;
+    display: flex;
+    padding: 5%;
+    position: relative;
+    top: 5%;
+    flex-direction: column;
+    align-content: center;
+    background-color: rgb(239, 241, 243);
+}
+
+}
