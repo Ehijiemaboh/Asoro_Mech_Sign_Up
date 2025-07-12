@@ -484,7 +484,7 @@ body {
     width: 50%;
     font-size:.67em; 
     position: absolute;
-    left: 0vw;
+    left: 4vw;
 }
 
 label span:before {
@@ -497,7 +497,7 @@ label span:before {
   padding:auto;
   position: absolute;
   top:1vh;
-  left:9vw;
+  left:5vw;
   background-color: rgb(226, 228, 230);
 }
 
@@ -507,15 +507,15 @@ label span:after {
   margin-right:7px;
   position: absolute;
   top:1vh;
-  left:9vw;
+  left:5vw;
   transition: 300ms;
   opacity: 0; }
 #create{
-    top:calc(#{$compstop} + 4.4vh);
+    top:calc(#{$compstop} + 7.4vh);
 }
 .a {
     height: auto;
-    margin: 4%  1% 0% 34%;
+    margin: 5%  1% 0% 34%;
     clear: none;
     overflow: none;
     font-size:.65em;
@@ -555,11 +555,11 @@ label span:after {
 .label {
     margin: 0px 9% 0px 0%;
     padding-bottom: 8%;
-    padding-top:.1vh;
+    padding-top:4vh;
     width: 30%;
     font-size:.67em; 
     position: absolute;
-    left: 10vw;
+    left: 7vw;
 }
 
 .radio{
@@ -606,8 +606,8 @@ label span:before {
   padding:0;
   position: absolute;
   margin:auto;
-  top:1.4vh;
-  left:0vw;
+  top:5.5vh;
+  left:3vw;
   background-color: rgb(226, 228, 230);
 }
 
@@ -617,8 +617,8 @@ label span:after {
   height: 2vh;
   margin: auto;
   position: absolute;
-  top:1.4vh;
-  left:0vw;
+  top:5.5vh;
+  left:3vw;
   transition: 300ms;
   opacity: 0;
 }
