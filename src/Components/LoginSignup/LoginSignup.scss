@@ -360,8 +360,8 @@ input{
     color: #222021;
 }
 .label {
-    margin: 0px 0 0px 0%;
-    padding-bottom: 10%;
+    margin: 1% 0 0px 0%;
+    padding-bottom: 1%;
     padding-top:.00vh;
     width: 50%;
     font-size:.67em; 
@@ -512,10 +512,22 @@ label span:after {
   transition: 300ms;
   opacity: 0; }
 #create{
-    top:calc(#{$compstop} + 7);
-}}
+    top:calc(#{$compstop} + 4.4vh);
+}
+.a {
+    height: auto;
+    margin: 4%  1% 0% 34%;
+    clear: none;
+    overflow: none;
+    font-size:.65em;
+    position: absolute;
+    padding: auto;
+    right: 14%;  
+    color: #222021;
+}
+}
 
-@media only screen and (max-height: 400px) 
+@media only screen and (max-height: 570px) 
 {
 .inputs{ 
     margin-top: .2%;
@@ -542,13 +554,13 @@ label span:after {
 }
 
 .label {
-    margin: 0px 0 0px 0%;
+    margin: 0px 40% 0px 0%;
     padding-bottom: 0%;
     padding-top:2.00vh;
-    width: 50%;
+    width: 30%;
     font-size:.67em; 
     position: absolute;
-    left: 1vw;
+    left: 0vw;
 }
 
 .radio{
@@ -595,8 +607,8 @@ label span:before {
   padding:0;
   position: absolute;
   margin:auto;
-  top:2vh;
-  left:4vw;
+  top:3vh;
+  left:9vw;
   background-color: rgb(226, 228, 230);
 }
 
@@ -607,11 +619,11 @@ label span:after {
   margin: auto;
   position: absolute;
   top:3vh;
-  left:4vw;
+  left:9vw;
   transition: 300ms;
   opacity: 0;
 }
 #create{
-    top:calc(#{$compstop} + -3vh);
+    top:calc(#{$compstop} + -1vh);
 }
 }
