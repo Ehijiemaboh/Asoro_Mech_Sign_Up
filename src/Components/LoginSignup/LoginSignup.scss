@@ -318,7 +318,7 @@ img{
     border-radius: .4em;
     position: relative;
     font-size: .7em;
-    top:calc(#{$compstop} + 4vh);
+    top:calc(#{$compstop} + 3.4vh);
 }
 
 #create a {
@@ -350,17 +350,18 @@ input{
 
 .a {
     height: auto;
-    margin: 3%  1% 0% 34%;
+    margin: 4%  1% 0% 34%;
     clear: none;
     overflow: none;
     font-size:.65em;
     position: absolute;
+    padding: auto;
     right: 14%;  
     color: #222021;
 }
 .label {
-    margin: 0px 0 0px 0%;
-    padding: 2%;
+    margin: auto;
+    padding-left: 4%;
     padding-top:.001vh;
     width: 50%;
     font-size:.67em; 
@@ -369,10 +370,10 @@ input{
 }
 
 .radio{
-    margin:.2vh 3% 4vh 3%;
+    margin: auto;
     width: 80%;
     height: 20%;
-    padding: auto;
+    padding-bottom: 7%;
     display: flexbox;
     flex-direction: column;
     align-items: center;
@@ -404,7 +405,7 @@ label span:after {
 
 label span:before {
   width: 5%;
-  height: 1vh;
+  height: 2vh;
   margin-right:7px;
   margin-left: 0;
   display: inline-block;
