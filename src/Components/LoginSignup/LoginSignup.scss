@@ -506,7 +506,7 @@ label span:after {
     top:calc(#{$compstop} + 7);
 }}
 
-@media only screen and (max-height: 700px) 
+@media only screen and (max-height: 400px) 
 {
 .inputs{ 
     margin-top: .2%;
