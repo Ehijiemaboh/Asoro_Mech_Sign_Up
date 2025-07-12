@@ -12,7 +12,6 @@ export const LoginSignup = () => {
         <div className='header'>
           <div className='text'><h2>Mechanic Sign in</h2></div>
           <div className='text'><h6>Enter your account details</h6></div>
-          <div className='underline'></div>
         </div>
         <div className='inputs'>
           <div className='input' id='inputEmail'>

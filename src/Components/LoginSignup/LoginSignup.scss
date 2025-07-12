@@ -412,7 +412,7 @@ label span:before {
   padding:0;
   position: absolute;
   margin:auto;
-  top:.3vh;
+  top:1vh;
   left:4vw;
   background-color: rgb(226, 228, 230);
 }
@@ -518,5 +518,22 @@ label span:after {
     top: 14%;
     width: 110%;
     align-items: center;
+}
+
+.submit > #continue {
+    height: $inputHeight;
+    width: 60%;
+    font-size: .73em;
+    background-color:white;
+    margin-top: 2%;
+    padding-bottom: .1vh;
+    position: relative;
+    top:calc(#{$compstop} + -2vh);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+
+#create{
+    top:calc(#{$compstop} + -7vh);
 }
 }
