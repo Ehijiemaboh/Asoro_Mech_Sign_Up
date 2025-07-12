@@ -350,7 +350,7 @@ input{
 
 .a {
     height: auto;
-    margin: 4%  1% 0% 34%;
+    margin: 5%  1% 0% 34%;
     clear: none;
     overflow: none;
     font-size:.65em;
@@ -361,12 +361,12 @@ input{
 }
 .label {
     margin: 0px 0 0px 0%;
-    padding: 0%;
-    padding-top:.001vh;
+    padding-bottom: 10%;
+    padding-top:.00vh;
     width: 50%;
     font-size:.67em; 
     position: absolute;
-    left: 1vw;
+    left: 0vw;
 }
 
 .radio{
@@ -480,12 +480,12 @@ body {
 }
 .label {
     margin: auto;
-    padding-left: 4%;
+    padding-left: 6%;
     padding-top:.001vh;
     width: 50%;
     font-size:.67em; 
     position: absolute;
-    left: 1vw;
+    left: 0vw;
 }
 
 label span:before {
