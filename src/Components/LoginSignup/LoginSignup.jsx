@@ -10,7 +10,7 @@ export const LoginSignup = () => {
       <div className='Container'>
         <div className='headerimg'><img src={Autoimg} alt='Asoro Car Icon'/></div>
         <div className='header'>
-          <div className='text'><h2>Car Owner's Sign in</h2></div>
+          <div className='text'><h2>Mechanic Sign in</h2></div>
           <div className='text'><h6>Enter your account details</h6></div>
         </div>
         <div className='inputs'>
